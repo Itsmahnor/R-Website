@@ -1,0 +1,310 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+   
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(217, 204, 204);
+    overflow-x: hidden; 
+}
+
+.header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    background-color: white;
+}
+
+.bar {
+    justify-self: end;
+    margin-right: 1rem;
+    margin-top: 2rem;
+}
+
+.Food {
+    background-color: white;
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1fr;
+    padding: 1rem;
+    gap: 3rem;
+}
+
+.img-food {
+    height: 350px;
+    max-width: 100%; 
+}
+
+
+.pics1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    justify-self: right;
+}
+
+.Food-text {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    justify-self: left;
+}
+
+.f-text {
+    width: 200px;
+    color: white;
+    background-color: green;
+    text-align: center;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+
+ .s-text {
+    font-size: 4rem;
+   width: 500px;
+   
+} 
+
+.para {
+    color: gray;
+    width: 600px;
+}
+.text-button{
+margin-top: 1rem;
+
+    background-color: orange;
+    color: black;
+    width: 130px;
+    padding: 0.5rem;
+    text-align: center;
+} 
+.main-area {
+    background-color: white;
+    margin-top: 3px;
+    padding: 1rem;
+    display: grid;
+    justify-items: center;
+    grid-template-rows: 1fr 1fr;
+   row-gap: 1rem;
+}
+.text-button-2{
+ 
+   
+        background-color: green;
+        color: white;
+        width: 100px;
+        text-align: center;
+    
+        padding: 1rem;
+    }
+    .Information {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 3rem;
+        background-color: white;
+        margin-top: 4px;
+        justify-items: right;
+      
+    }
+    
+    .box {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 15% 30%;
+        column-gap: 10px;
+    }
+    .below-main{
+        width:100vw;
+    }
+    .pictures img{
+        /* height: 400px; */
+        border-radius: 10px;
+    }
+    .pictures{
+        display: grid;background-color: white;padding: 2rem;
+        
+    }
+    .HERO_SECTION{
+        width:100vw;
+        background-color:white;
+       
+        padding: 2rem;
+       
+    }
+    
+    .first-section {
+        display: grid;
+        grid-template-columns: 50% 50% ;
+        grid-template-rows: 1fr; gap:1rem;
+    }
+  .second-section {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    grid-template-rows: 1fr;gap:2rem;
+  
+  }
+  .hero-image{
+    border-radius: 5px;
+  }
+  
+  #pic1 {
+    width: 100%;
+    height: auto; 
+    aspect-ratio: 1/1; 
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#pic2 {
+    width: 95%;
+    height: 100%; 
+    aspect-ratio: 1/1;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+  #pic4,#pic5{
+   
+    width: 100%;
+    height: auto; 
+    aspect-ratio: 1/1; 
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+  }
+  #pic6 {
+    width: 100%;
+    height: auto; 
+    aspect-ratio: 1/1; 
+    grid-row-start: 2;
+    grid-row-end: 3;
+    
+}
+
+.Aside{
+    float: right;
+   display: grid;
+}
+
+#pic3{
+    width: 100%;
+    height: auto; 
+    aspect-ratio: 1/1; 
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+#pic7 {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1/1; 
+    grid-row-start: 3;
+    grid-row-end: 4; 
+}
+ 
+
+   
+    .Footer {
+        background-color: rgba(234, 199, 133, 0.5); /* Adjust the alpha value for opacity */
+        display: flex;
+        margin-top: 2rem;
+        /* Add any additional styles as needed */
+    }
+    
+
+
+
+
+.list {
+    margin-left: 20rem;
+}
+.social-media {
+    margin-left: 17rem;
+}
+input {
+    width: 14rem;
+    height: 30px;
+    padding-left: 2rem;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+.icons {
+    display: flex;
+
+}
+.tweter,.insta,.youtube {
+    margin-left:2rem ;
+}
+.logo-Footer {
+    position: relative;
+    top:2rem;
+    margin-left: 5rem;
+    height:8rem;
+    width: 80%;
+}
+.text-footer {
+    position: absolute;
+   
+   font-size: 1.5rem;
+   font-weight: 10rem;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+   color: black;
+   font-style:initial;
+  
+     margin-left: 18rem; 
+}
+
+
+ 
+@media (max-width: 344px) {
+    .s-text {
+        font-size: 2rem;
+        width: 200px;
+       
+    }
+
+    .Food{
+        gap: 3px;
+    }
+    .img-food {
+        height: 200px;
+        max-width: 100%; 
+    }
+     .box {
+        width: 70px; 
+        display: block;
+        
+       
+    }
+    h2{
+        font-size: 15px;
+
+    }
+    .content-text{
+        font-size: 10px;
+       
+    }
+   
+    .Information {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+        padding: 1rem;
+        background-color: white;
+        margin-top: 4px;
+        
+        justify-items: left;
+        column-gap: 1px; 
+    }
+    
+    
+}
+ 
+ 
